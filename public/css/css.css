@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#topDiv{
+    background-color: red;
+    height: 330px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url(/imeges/back.jpg.jpg);
+    color: white;
+    font-family: cursive;
+}
+
+#divincome{
+    background-color: green;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 60px;
+}
+#divexpenses{
+    background-color: red;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 60px;
+}
+#midelDiv{
+    text-align: center;
+    height: 80px;
+    background-color: rgb(235, 228, 228);
+ padding-top:  30px;
+}
+#inputDescrption , #inputNumber, #selected{
+    border-radius: 5px;
+    height: 20px;
+   outline: none;
+
+}
+
+
+
+/* ======================================================== */
+
+#bottomDiv{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#ulIncomeDiv{
+ width: 40%;
+ 
+}
+
+#ulExpDiv{
+    width: 40%;
+  
+}
+
+ul{
+   list-style: none;
+}
+
+.itemElement{
+    border-bottom: 1px solid black;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+/* 
+.far , .fa-times-circle , .delete {
+ position: absolute;
+ left: 90%;
+} */
+
+.amount{
+    /* position: absolute;
+    left: 80%; */
+    margin-right: 25px;
+}
+
+.description{
+    /* position: absolute;
+    left: 10%; */
+    margin-right: auto;
+
+}
+
+
+

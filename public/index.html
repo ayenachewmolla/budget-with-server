@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/css.css">
+</head>
+
+<body>
+    
+    <div id="topDiv">
+        <h2 id="dateheder">Avallable Budget In </h2>
+        <h1 id="h_balannce">+0.00</h1>
+        <div id="divincome">
+            <span id="h_incom">INCOME+0.00</span>
+        </div>
+        <div id="divexpenses">
+            <span id="h_expenses">EXPENSES-0.00</span>
+            <span id="percentage">0%</span>
+        </div>
+    </div>
+
+    <div id="midelDiv">
+        <select name="" id="selected">
+            <option value="+">+</option>
+            <option value="-">-</option>
+        </select>
+        <input type="text" placeholder="add description" name="" id="inputDescrption">
+        <input type="number" placeholder="add amount" name="" id="inputNumber">
+         <i class="far icon-green fa-check-circle" onclick="createBalance()"> </i> 
+
+    </div>
+    <div id="bottomDiv">
+
+        <div id="ulIncomeDiv">
+           
+            <h3 id="sumincome"> INCOME</h3>
+            <ul id="incomeul">
+            </ul>
+        </div>
+
+        <div id="ulExpDiv">
+        
+            <h3 id="sumexpenses">    EXPENSES</h3>
+            <ul id="expensesul">
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/budget.js"></script>
+</body>
+
+</html>
